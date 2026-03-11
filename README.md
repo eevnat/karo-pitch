@@ -3,6 +3,8 @@
 > **India's most ambitious startup pitching platform.**  
 > Connect visionary founders with investors who believe in their mission.
 
+**Link** : https://karo-pitch-five.vercel.app/
+
 Built with **React 18 + Vite + Tailwind CSS + Framer Motion + React Router v6**.
 
 ---
@@ -67,6 +69,21 @@ karo-pitch/
 | React Router DOM  | 6.x      | Client-side routing           |
 
 ---
+## How Does This Looks
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-11 124442" src="https://github.com/user-attachments/assets/5a59605c-9ded-4a21-b2d5-b80b2b1c471a" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-11 124518" src="https://github.com/user-attachments/assets/bb92f705-2c23-446e-a040-5e8148092657" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-11 124547" src="https://github.com/user-attachments/assets/08c48746-47bf-4319-886a-4c8516db7aae" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-11 124617" src="https://github.com/user-attachments/assets/24f8c88e-2a85-4690-b972-f8c898d88767" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-11 124641" src="https://github.com/user-attachments/assets/bb7a556c-bb1d-41f9-ae61-6f464453302b" />
+
+<img width="1920" height="1080" alt="Screenshot 2026-03-11 124701" src="https://github.com/user-attachments/assets/afa36cf6-bf48-4535-a3ee-80ee34fd09f9" />
+
+<img width="1919" height="504" alt="Screenshot 2026-03-11 124718" src="https://github.com/user-attachments/assets/40cf6b90-334b-4448-bc0e-336670cd956b" />
 
 ## 💻 How to Download & Run Locally
 
@@ -167,34 +184,6 @@ Every `git push` to `main` triggers an automatic redeploy.
 
 ---
 
-### 🟢 Netlify
-
-**Via Netlify CLI:**
-```bash
-npm install -g netlify-cli
-netlify login
-npm run build
-netlify deploy --prod --dir=dist
-# → Live at https://karo-pitch.netlify.app
-```
-
-**Via Netlify Dashboard (drag & drop):**
-1. Run `npm run build`
-2. Go to https://app.netlify.com
-3. Drag and drop the `dist/` folder onto the dashboard ✅
-
-**Via Netlify + GitHub (auto-deploy):**
-1. Push code to GitHub
-2. Netlify Dashboard → **"New site from Git"**
-3. Connect GitHub → select repo
-4. Set:
-   - **Build command:** `npm run build`
-   - **Publish directory:** `dist`
-5. Click **"Deploy site"** ✅
-
-> ⚠️ The `netlify.toml` file is already included and handles SPA routing (page-refresh 404 fix).
-
----
 
 ### 🐙 GitHub Pages
 
