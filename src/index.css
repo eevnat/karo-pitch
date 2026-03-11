@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ── Global resets ─────────────────────────── */
+html { scroll-behavior: smooth; }
+
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #ffffff;
+  color: #1C1C1C;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+/* ── Custom scrollbar ──────────────────────── */
+::-webkit-scrollbar       { width: 5px; }
+::-webkit-scrollbar-track { background: #1C1C1C; }
+::-webkit-scrollbar-thumb { background: #FC433B; border-radius: 4px; }
+
+/* ── Selection ─────────────────────────────── */
+::selection { background: #FC433B; color: #fff; }
+
+/* ── Utility: display font ─────────────────── */
+.font-display { font-family: 'Syne', sans-serif; }
+
+/* ── Ticker / marquee animation ────────────── */
+@keyframes ticker {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.animate-ticker {
+  display: flex;
+  width: max-content;
+  animation: ticker 24s linear infinite;
+}
+
+/* ── Subtle dot-grid background ────────────── */
+.dot-grid {
+  background-image: radial-gradient(circle, #e5e5e5 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+/* ── Red glow helper ───────────────────────── */
+.glow-red {
+  box-shadow: 0 0 40px 0 rgba(252,67,59,.25);
+}
